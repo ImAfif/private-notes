@@ -1,0 +1,23 @@
+&& = AND 
+|| = OR 
+&& (AND)
+
+&&(and)
+
+A	      B	      A && B && Will always be false unless there's two trues 
+true	  true	  true
+true	  false	  false
+false	  true	  false = short-circuiting
+false	  false	  false = short-circuiting
+
+
+|| (OR) || Will always be true unless there's two falses
+
+A	      B	      A || B
+true	  true	  true  = short-circuiting 
+true	  false	  true  = short-circuiting 
+false	  true	  true
+false	  false	  false
+
+
+short circuiting is when the first argument already satisifed the condition
