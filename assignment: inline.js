@@ -18,4 +18,3 @@ emotions ("happy", function(num) {
 });
 
 
-emotions ("tesst", myFunc(5))
